@@ -1,0 +1,36 @@
+.bookList ol {
+  cursor: pointer;
+}
+
+.selected {
+  color: orange;
+}
+
+li {
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  list-style-type: none;
+}
+li:target {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: orange;
+}
+
+ol input {
+  display: none;
+}
+ol input:checked + span {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
